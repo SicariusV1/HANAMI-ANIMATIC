@@ -185,10 +185,10 @@ MonoBehaviour:
     min: 0
   baseHeight:
     m_OverrideState: 1
-    m_Value: -4
+    m_Value: -89.5
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 43.69
+    m_Value: 58.7
   albedo:
     m_OverrideState: 1
     m_Value: {r: 0.48104307, g: 0.7476783, b: 0.8867924, a: 1}
@@ -197,7 +197,7 @@ MonoBehaviour:
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 689.2
+    m_Value: 582.93
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
