@@ -27,8 +27,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 10.7
   compensation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 3
   limitMin:
     m_OverrideState: 0
     m_Value: -10
@@ -205,11 +205,11 @@ MonoBehaviour:
     m_Value: 2
   threshold:
     m_OverrideState: 1
-    m_Value: 0.65
+    m_Value: 0.98
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.903
+    m_Value: 0.488
     min: 0
     max: 1
   scatter:
@@ -273,7 +273,7 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 1
   rotation:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: 0
     max: 360
@@ -282,18 +282,18 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 9.16
   multiplier:
     m_OverrideState: 0
     m_Value: 1
     min: 0
   upperHemisphereLuxValue:
     m_OverrideState: 0
-    m_Value: 0.46608552
+    m_Value: 2.1142557
     min: 0
   upperHemisphereLuxColor:
     m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 0.36818686, y: 0.4313552, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -309,7 +309,7 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: 54a3a0570aebe8949bec4966f1376581, type: 3}
+    m_Value: {fileID: 8900000, guid: 057ba1b220a345a47ad190405641e439, type: 3}
   enableBackplate:
     m_OverrideState: 0
     m_Value: 0
