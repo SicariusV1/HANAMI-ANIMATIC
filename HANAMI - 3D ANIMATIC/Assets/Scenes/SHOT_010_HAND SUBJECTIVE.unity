@@ -308,13 +308,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2565edf0c1cdc478fdb97f285dd5bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  record: {fileID: 11400000, guid: 5a914f0a6eee00c4cb7f19af21d27cc6, type: 2}
+  record: {fileID: 11400000, guid: 87dd5c583226fa8458952ea4511631c2, type: 2}
   playOnStart: 1
   speed: 1
   relative: 0
   positionMagnitude: 1
   rotationLerp: 1
-  useLocal: 0
+  useLocal: 1
 --- !u!4 &201661531
 Transform:
   m_ObjectHideFlags: 0
@@ -326,8 +326,8 @@ Transform:
   m_LocalPosition: {x: 0.42, y: 7.25, z: 1.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 1730931417}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 54.800003, y: 179.813, z: 0.024}
 --- !u!1 &267160209
 GameObject:
@@ -912,6 +912,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1930220766}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1091009226 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 404836, guid: cb3370c18187bb444b240cfb08dcc02f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1930220766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1091009227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,7 +1166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1343452387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1173,8 +1179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc7a64c1b9c158c4496ad7f6c090092d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  record: {fileID: 11400000, guid: 5a914f0a6eee00c4cb7f19af21d27cc6, type: 2}
-  objectRecorded: {fileID: 0}
+  record: {fileID: 11400000, guid: 87dd5c583226fa8458952ea4511631c2, type: 2}
+  objectRecorded: {fileID: 1091009226}
   status: 0
 --- !u!4 &1343452388
 Transform:
@@ -1506,6 +1512,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1730931416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1730931417}
+  m_Layer: 0
+  m_Name: CameraCorrection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1730931417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730931416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 201661531}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1874813358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,17 +1634,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ViveCameraRig
       objectReference: {fileID: 0}
+    - target: {fileID: 175660, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 463184, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 463184, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.88
       objectReference: {fileID: 0}
     - target: {fileID: 463184, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2.93
       objectReference: {fileID: 0}
     - target: {fileID: 463184, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
       propertyPath: m_LocalRotation.x
