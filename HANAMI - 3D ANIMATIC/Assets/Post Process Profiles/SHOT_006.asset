@@ -129,7 +129,7 @@ MonoBehaviour:
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 7.64
+    m_Value: 22.94
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
@@ -253,15 +253,15 @@ MonoBehaviour:
     min: 0
   nearFocusEnd:
     m_OverrideState: 1
-    m_Value: 3.52
+    m_Value: 3.18
     min: 0
   farFocusStart:
-    m_OverrideState: 0
-    m_Value: 10
+    m_OverrideState: 1
+    m_Value: 336.5
     min: 0
   farFocusEnd:
-    m_OverrideState: 0
-    m_Value: 48.1
+    m_OverrideState: 1
+    m_Value: 207
     min: 0
   m_NearSampleCount:
     m_OverrideState: 0
