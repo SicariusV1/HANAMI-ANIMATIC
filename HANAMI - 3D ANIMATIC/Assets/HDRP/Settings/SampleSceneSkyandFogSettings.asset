@@ -197,7 +197,7 @@ MonoBehaviour:
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 492.37
+    m_Value: 95.6
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
