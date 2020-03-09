@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
   m_Name: HDRISky
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   rotation:
     m_OverrideState: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 0
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -163,7 +163,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 10.3
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -255,23 +255,23 @@ MonoBehaviour:
     min: 0
   baseHeight:
     m_OverrideState: 1
-    m_Value: 112.9
+    m_Value: -9.3
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 459.3
+    m_Value: 29.71
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.7004717, g: 0.90837425, b: 0.9339623, a: 1}
+    m_Value: {r: 1, g: 0.8055933, b: 0.627451, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 284.1
+    m_Value: 156.85
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   anisotropy:
     m_OverrideState: 0
     m_Value: 0
