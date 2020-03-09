@@ -500,7 +500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!73398921 &234118350
 VFXRenderer:
   m_ObjectHideFlags: 2
@@ -508,7 +508,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234118349}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1030,7 +1030,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000000
-  field of view: 14.565339
+  field of view: 14.5132675
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2215,7 +2215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1374609284
 MonoBehaviour:
   m_ObjectHideFlags: 0
