@@ -208,7 +208,7 @@ MonoBehaviour:
     m_Value: 1
   focusDistance:
     m_OverrideState: 1
-    m_Value: 13.17
+    m_Value: 3.71
     min: 0.1
   nearFocusStart:
     m_OverrideState: 1
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: SHOT_002
+  m_Name: SHOT_02bis
   m_EditorClassIdentifier: 
   components:
   - {fileID: -7572910388874902704}
